@@ -9,6 +9,43 @@ public class AreaofTriangle {
           System.out.println("Number "+num+" is odd");
 	}	
 }
+        static void lakshmi(int num1,int num2){
+        if(num1>num2){
+           System.out.println("The bigger number is" +num1);
+          }
+        else{
+           System.out.println("The bigger number is" +num2);
+          }
+
+
+
+
+
+
+
+static void swati(int num1,int num2) {
+         int div= num1 / num2;
+         System.out.println("division of two numbers"+ "is" + div);
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+public class AreaofSquare{
+    static void sagar(int s)
+    {
+   int area_square=s*s;
+        System.out.println("Area of the square="+area_square);
+     }
+}
 	
 	static void  ajay(){
 
@@ -37,7 +74,10 @@ public class AreaofTriangle {
 
 	ajay();
 	sneha(num);
+	sagar(s);
 	preksha();
+        lakshmi(num1,num2);
+        swati(10,5);
         
     }
 }
