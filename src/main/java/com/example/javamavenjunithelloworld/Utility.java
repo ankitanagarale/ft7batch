@@ -9,6 +9,21 @@ public class AreaofTriangle {
           System.out.println("Number "+num+" is odd");
 	}	
 }
+        static void lakshmi(int num1,int num2){
+        if(num1>num2){
+           System.out.println("The bigger number is" +num1);
+          }
+        else{
+           System.out.println("The bigger number is" +num2);
+          }
+
+public class AreaofSquare{
+    static void sagar(int s)
+    {
+   int area_square=s*s;
+        System.out.println("Area of the square="+area_square);
+     }
+}
 	
 	static void  ajay(){
 
@@ -37,7 +52,21 @@ public class AreaofTriangle {
 
 	ajay();
 	sneha(num);
+	sagar(s);
 	preksha();
+        lakshmi(num1,num2);
         
+    }
+}
+public class Ar {
+    public static void main(String[] args)
+    {
+        int radius;
+        double pi = 3.142, area;
+        radius = 5;
+        // calculating the area of the circle
+        area = pi * radius * radius;
+        // printing the area of the circle
+        System.out.println("Area of circle is :" + area);
     }
 }
